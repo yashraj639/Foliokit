@@ -3,6 +3,7 @@ import { Hero } from "@/app/templates/minimalist/components/Hero";
 import { Projects } from "@/app/templates/minimalist/components/Projects";
 import { About } from "@/app/templates/minimalist/components/About";
 import { Contact } from "@/app/templates/minimalist/components/Contact";
+import { ArrowUpRight } from "lucide-react";
 
 const templateSlug = "minimalist";
 
@@ -79,7 +80,7 @@ export default function MinimalistPortfolio() {
           target="_blank"
           className="pointer-events-auto inline-flex items-center gap-2 rounded-full border border-neutral-200 bg-white/80 px-4 py-2 text-sm font-medium text-neutral-600 backdrop-blur-sm transition hover:bg-white hover:text-neutral-900"
         >
-          View details ↗
+          View details <ArrowUpRight className="w-4 h-4 ml-2" />
         </a>
       </header>
 

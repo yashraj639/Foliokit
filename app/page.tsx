@@ -153,7 +153,7 @@ export default function Home() {
 
         <Section
           id="gallery"
-          className="rounded-[2rem] border border-border/80 bg-card/90 px-6 py-8 shadow-sm sm:px-8 sm:py-10"
+          className="rounded-[2rem] border border-border/80 bg-card/90 px-2 py-8 shadow-sm sm:px-8 sm:py-10"
         >
           <div className="flex flex-col gap-4 border-b border-border/80 pb-6 sm:flex-row sm:items-end sm:justify-between">
             <div className="max-w-2xl">

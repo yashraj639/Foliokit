@@ -5,6 +5,7 @@ import { Hero } from "@/app/templates/glassmorphism/components/Hero";
 import { Projects } from "@/app/templates/glassmorphism/components/Projects";
 import { About } from "@/app/templates/glassmorphism/components/About";
 import { Contact } from "@/app/templates/glassmorphism/components/Contact";
+import { ArrowUpRight } from "lucide-react";
 
 const portfolioData = {
   name: "Maya Patel",
@@ -89,7 +90,7 @@ export default function GlassmorphismPreviewPage() {
           href="/templates/glassmorphism"
           className="rounded-full bg-indigo-600 hover:bg-indigo-500 transition-colors px-4 py-2 text-sm font-medium text-white"
         >
-          View details ↗
+          View details <ArrowUpRight className="w-4 h-4 ml-2" />
         </Link>
       </header>
 

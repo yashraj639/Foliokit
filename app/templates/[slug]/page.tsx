@@ -2,6 +2,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { getTemplateBySlug, templates } from "@/lib/templates";
+import { ArrowUpRight } from "lucide-react";
 
 type TemplatePageProps = {
   params: Promise<{
@@ -147,7 +148,7 @@ export default async function TemplatePage({ params }: TemplatePageProps) {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Open full page ↗
+                  Open full page <ArrowUpRight className="w-4 h-4 ml-2" />
                 </a>
               </div>
             </div>

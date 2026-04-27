@@ -5,6 +5,7 @@ import { Hero } from "@/app/templates/organic-layout/components/Hero";
 import { Projects } from "@/app/templates/organic-layout/components/Projects";
 import { About } from "@/app/templates/organic-layout/components/About";
 import { Contact } from "@/app/templates/organic-layout/components/Contact";
+import { ArrowUpRight } from "lucide-react";
 
 const portfolioData = {
   name: "Creative developer who cares about the details",
@@ -71,7 +72,7 @@ export default function OrganicLayoutPreviewPage() {
           href="/templates/organic-layout"
           className="rounded-full bg-green-800 px-4 py-2 text-sm font-medium text-white transition hover:bg-green-900"
         >
-          View details ↗
+          View details <ArrowUpRight className="w-4 h-4 ml-2" />
         </Link>
       </header>
 

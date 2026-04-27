@@ -5,6 +5,7 @@ import { Hero } from "@/app/templates/bento-grid/components/Hero";
 import { Projects } from "@/app/templates/bento-grid/components/Projects";
 import { About } from "@/app/templates/bento-grid/components/About";
 import { Contact } from "@/app/templates/bento-grid/components/Contact";
+import { ArrowUpRight } from "lucide-react";
 
 const portfolioData = {
   name: "Product-minded developer",
@@ -97,7 +98,7 @@ export default function BentoGridPreviewPage() {
             href="/templates/bento-grid"
             className="rounded-full bg-neutral-900 hover:bg-neutral-700 transition-colors px-4 py-2 text-sm font-medium text-white"
           >
-            View details ↗
+            View details <ArrowUpRight className="w-4 h-4 ml-2" />
           </Link>
         </header>
 

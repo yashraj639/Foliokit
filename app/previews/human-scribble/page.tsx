@@ -5,6 +5,7 @@ import { Hero } from "@/app/templates/human-scribble/components/Hero";
 import { Projects } from "@/app/templates/human-scribble/components/Projects";
 import { About } from "@/app/templates/human-scribble/components/About";
 import { Contact } from "@/app/templates/human-scribble/components/Contact";
+import { ArrowUpRight } from "lucide-react";
 
 const portfolioData = {
   name: "Alex Rivera",
@@ -92,7 +93,7 @@ export default function HumanScribblePreviewPage() {
           href="/templates/human-scribble"
           className="rounded-full bg-amber-800 px-4 py-2 text-sm font-medium text-white transition hover:bg-amber-900"
         >
-          View details ↗
+          View details <ArrowUpRight className="w-4 h-4 ml-2" />
         </Link>
       </header>
 

@@ -5,6 +5,7 @@ import { Hero } from "@/app/templates/editorial/components/Hero";
 import { Projects } from "@/app/templates/editorial/components/Projects";
 import { About } from "@/app/templates/editorial/components/About";
 import { Contact } from "@/app/templates/editorial/components/Contact";
+import { ArrowUpRight } from "lucide-react";
 
 const portfolioData = {
   name: "Jamie Rivers",
@@ -78,7 +79,7 @@ export default function EditorialPreviewPage() {
           href="/templates/editorial"
           className="font-serif rounded-full bg-[#2f2a24] px-4 py-2 text-sm text-[#f4f0e8] transition hover:opacity-80"
         >
-          View details ↗
+          View details <ArrowUpRight className="w-4 h-4 ml-2" />
         </Link>
       </header>
 

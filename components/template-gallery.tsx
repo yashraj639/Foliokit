@@ -136,7 +136,7 @@ export function TemplateGallery({ templates }: TemplateGalleryProps) {
         {filteredTemplates.map((template) => (
           <Link
             key={template.slug}
-            className="group rounded-[1.75rem] border border-border/80 bg-background p-4 transition duration-200 hover:-translate-y-1 hover:shadow-lg"
+            className="group rounded-[1.75rem] border border-border/80 bg-background p-2 transition duration-200 hover:-translate-y-1 hover:shadow-lg"
             href={`/templates/${template.slug}`}
           >
             <div

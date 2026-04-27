@@ -2,6 +2,7 @@
 
 import { useRef } from "react";
 import { motion, useInView, useScroll, useTransform } from "motion/react";
+import { ArrowUpRight } from "lucide-react";
 
 interface HeroProps {
   name: string;
@@ -76,7 +77,7 @@ export function Hero({ name, role, tagline }: HeroProps) {
               href="#contact"
               className="inline-flex items-center gap-2 text-sm font-medium text-neutral-400 hover:text-neutral-900 transition-colors"
             >
-              Get in touch ↗
+              Get in touch <ArrowUpRight className="w-4 h-4 ml-2" />
             </a>
           </div>
         </motion.div>

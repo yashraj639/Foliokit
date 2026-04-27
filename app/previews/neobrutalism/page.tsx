@@ -5,6 +5,7 @@ import { Hero } from "@/app/templates/neobrutalism/components/Hero";
 import { Projects } from "@/app/templates/neobrutalism/components/Projects";
 import { About } from "@/app/templates/neobrutalism/components/About";
 import { Contact } from "@/app/templates/neobrutalism/components/Contact";
+import { ArrowUpRight } from "lucide-react";
 
 const portfolioData = {
   name: "I make product surfaces that refuse to blend in.",
@@ -100,7 +101,7 @@ export default function NeobrutalismPreviewPage() {
               href="/templates/neobrutalism"
               className="inline-flex items-center gap-2 border-[3px] border-[#23150d] bg-[#23150d] px-4 py-2 text-sm font-black uppercase tracking-[0.12em] text-[#fff8f2] shadow-[4px_4px_0_#8b7355] hover:shadow-[2px_2px_0_#8b7355] hover:translate-x-[2px] hover:translate-y-[2px] transition-all"
             >
-              View details ↗
+              View details <ArrowUpRight className="w-4 h-4 ml-2" />
             </Link>
           </div>
         </header>

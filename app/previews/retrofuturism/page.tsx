@@ -5,6 +5,7 @@ import { Hero } from "@/app/templates/retrofuturism/components/Hero";
 import { Projects } from "@/app/templates/retrofuturism/components/Projects";
 import { About } from "@/app/templates/retrofuturism/components/About";
 import { Contact } from "@/app/templates/retrofuturism/components/Contact";
+import { ArrowUpRight } from "lucide-react";
 
 const portfolioData = {
   name: "Building Tomorrow's Interfaces Today",
@@ -86,7 +87,7 @@ export default function RetrofuturismPreviewPage() {
           href="/templates/retrofuturism"
           className="font-mono rounded-sm bg-purple-600 hover:bg-purple-500 transition-colors px-4 py-2 text-xs font-bold uppercase tracking-wider text-white"
         >
-          View details ↗
+          View details <ArrowUpRight className="w-4 h-4 ml-2" />
         </Link>
       </header>
 
